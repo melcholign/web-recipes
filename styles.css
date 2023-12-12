@@ -1,6 +1,7 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
+    /*border: 2px solid red;*/
 }
 
 h1 {
@@ -30,38 +31,42 @@ body.home {
 }
 
 .home h2 {
-    color: white;
+    width: 25%;
     margin: 0 auto;
-    text-transform: uppercase;
+    padding: 2px;
+
+    text-align: center;
+    text-transform: lowercase;
     text-decoration: none;
+    color: white;
 }
 
 .links {
-    padding-left: 0px;
+    width: 25%;
+    margin: 0 auto;
+    padding: 2px 0px;
 }
 
 .links > li {
-    width: 25%;
     margin: 0px;
-    border: 4px solid #f3c3b0;
-    border-left: 0px;
     border-top: 2px solid #f3c3b0;
     border-bottom: 2px solid #f3c3b0;
+    list-style: none;
     background-color: white;
 }
 
 .links a {
-    text-decoration: none;
-    font-weight: bold;
     display: block;
     padding:10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
     color: #f3c3b0;
 }
 
 .links > li:hover {
     border: 2px solid white;
-    margin-left: -5px;
-    width: 25.5%;
+    margin: 0px -5px;
 }
 
 .links a:hover {
