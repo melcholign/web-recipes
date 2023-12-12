@@ -10,3 +10,13 @@ h1 {
 h2 {
     font-size: 28px;
 }
+
+.home h1 {
+    text-align: center;
+    /*border: 2px solid red;*/
+    margin-bottom: 100px;
+}
+
+/*ul {
+    border: 2px solid blue;
+}*/
