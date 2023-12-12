@@ -1,33 +1,56 @@
 * {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     /*border: 2px solid red;*/
+    background-color: #f0c3b2;    
 }
 
 h1 {
     font-size: 40px;
     text-transform: uppercase;
+    padding: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: white;
+    color: #f0c3b2;
 }
 
 h2 {
     font-size: 28px;
     text-decoration: underline;
+    text-transform: lowercase;
+    color: white;
+}
+
+h3 {
+    text-transform: lowercase;
+    color: white;
+}
+
+p {
+    padding: 10px;
+
+    background-color: white;
+    color: #f0c3b2;
+}
+
+li {
+    color: white;
+}
+
+img {
+    border: 5px dashed white;
 }
 
 /* HOME */
 
 body.home {
-    background-color: #f3c3b0;    
+    background-color: #f0c3b2;    
 }
 
 .home h1 {
     text-align: center;
-    padding: 10px;
-    margin-left: -10px;
-    margin-right: -10px;
     margin-bottom: 100px;
-    background-color: white;
-    color: #f3c3b0;
 }
 
 .home h2 {
@@ -36,9 +59,7 @@ body.home {
     padding: 2px;
 
     text-align: center;
-    text-transform: lowercase;
     text-decoration: none;
-    color: white;
 }
 
 .links {
@@ -49,10 +70,9 @@ body.home {
 
 .links > li {
     margin: 0px;
-    border-top: 2px solid #f3c3b0;
-    border-bottom: 2px solid #f3c3b0;
+    border-top: 2px solid #f0c3b2;
+    border-bottom: 2px solid #f0c3b2;
     list-style: none;
-    background-color: white;
 }
 
 .links a {
@@ -61,7 +81,8 @@ body.home {
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    color: #f3c3b0;
+    background-color: white;
+    color: #f0c3b2;
 }
 
 .links > li:hover {
@@ -70,6 +91,6 @@ body.home {
 }
 
 .links a:hover {
-    background-color: #f3c3b0;
+    background-color: #f0c3b2;
     color: white;
 }
